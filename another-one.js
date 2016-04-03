@@ -1,5 +1,5 @@
-export.module = {
-  one = function(thing) {
+module.exports = {
+  one : function(thing) {
     return thing += 1;
   }
 }
