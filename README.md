@@ -25,3 +25,14 @@ var drink = another.one();
 drink
 => 1
 ```
+
+Object based way to get another 1
+
+```javascript
+drink = {
+  another: another.one
+}
+
+drink.another(1);
+=> 2
+```
