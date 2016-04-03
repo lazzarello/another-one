@@ -16,3 +16,12 @@ day = another.one(day);
 day = another.one(day);
 => 2
 ```
+
+alternative way to get another one if you don't have any one yet.
+
+```javascript
+var drink = another.one();
+=> undefined
+drink
+=> 1
+```
